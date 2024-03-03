@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+header {
+  background-color: rgb(33, 57, 106);
+  padding: 40px;
+  color: white;
+}
+h1 {
+  font-size: 32px;
+}
+h2 {
+  color: rgb(232, 56, 113);
+}
+.container {
+  max-width: 1000px;
+  padding: 10px;
+  margin: 0 auto;
+}
+ul {
+  list-style: none;
+}
+.center {
+  text-align: center;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+
+.label {
+  font-size: 25px;
+  font-weight: 800;
+  padding: 40px;
+  margin: 30px 10px;
+}
+.padding {
+  padding: 10px 20px;
+}
+.btn {
+  font-size: 15px;
+  border-radius: 3px;
+  padding: 5px 6px;
+  margin: 50px;
+  background-color: rgb(99, 99, 237);
+  color: white;
+  border: none;
+}
+.btn:hover {
+  background-color: green;
+}
+select {
+  font-size: 15px;
+}
+.btn-ques {
+  border: none;
+  padding: 15px;
+  background-color: white;
+}
+.btn-ques:hover {
+  border: 2px solid green;
+  border-radius: 3px;
+}
